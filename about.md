@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "关于我"
+title: "About"
 date: 2012-12-29 12:11
 comments: true
 footer: true
@@ -59,5 +59,5 @@ category: about
 
 如果你有任何需求，欢迎联系我：
 
-<img src='http://blog.zlxstar.me/images/phone.png' width='148px'/>
+<img src='http://blog.zlxstar.me/images/phone.png' style='width: 148px'/>
 

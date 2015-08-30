@@ -2,10 +2,19 @@
 title: "zlx's Thinking"
 subtitle: Ruby / Rails / Linux / Travel
 email: zlx.star@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zlx.github.com" # the base hostname & protocol for your site
-twitter_username: zlx_star
-github_username: zlx
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://zlx.github.com/" # the base hostname & protocol for your site
+author: Newell
+cover: "assets/header_image.jpg"
+logo: "assets/logo.png"
+
+social:
+  - name: Twitter
+    username: "@zlx_star"
+    url: "https://twitter.com/zlx_star"
+  - name: github
+    username: "zlx"
+    url: "https://github.com/zlx"
 
 # Build settings
 markdown: kramdown
@@ -21,8 +30,44 @@ data_dir:     ./_data
 includes_dir: ./_includes
 collections:  null
 
-gems: [./_plugins/gist_tag, ./_plugins/category_generator, ./_plugins/exclude_home]
+jekyll-archives:
+  enabled: 
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+gems: ['jekyll-archives', ./_plugins/gist_tag]
 
 # Config for exclude_home
 exclude_home:
   categories: [life]
+
+# paginate config
+paginate: 10
+
+disqus_shortname: zlx
+
+social:
+  - name: Twitter
+    icon: twitter
+    username: "@zlx_star"
+    url: https://twitter.com/zlx_star
+    desc: Follow me on Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+  - name: GitHub
+    icon: github
+    username: zlx
+    url: https://github.com/zlx
+    desc: Fork me on GitHub
+    share_url:
+    share_title:
+    share_link:
+
+descriptions:
+  - cat: tech
+    desc: "Technology info"

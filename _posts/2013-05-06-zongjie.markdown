@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第005期"
 date: 2013-05-06 21:09
 comments: false
-category: za-tan
+category: 新仔杂谈
 tags: 新仔杂谈 005
 ---
 

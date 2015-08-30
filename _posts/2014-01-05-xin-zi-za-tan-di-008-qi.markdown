@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第008期"
 date: 2014-01-05 09:20
 comments: true
-category: za-tan
+category: 新仔杂谈
 tags: 新仔杂谈 008
 ---
 

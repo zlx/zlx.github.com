@@ -3,8 +3,8 @@ layout: post
 title: "gitlab-hound 上线了"
 date: 2014-10-02 23:52
 comments: true
-category: tech gitlab hound
-tags: 
+category: tech
+tags: gitlab hound
 ---
 
 Gitlab-Hound 上线了。

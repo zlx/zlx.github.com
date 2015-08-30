@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第006期"
 date: 2013-06-04 00:44
 comments: false
-category: za-tan
+category: 新仔杂谈
 tags: 新仔杂谈 006 
 ---
 

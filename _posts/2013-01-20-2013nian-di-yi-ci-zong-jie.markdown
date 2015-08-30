@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第000期"
 date: 2013-01-20 18:32
 comments: true
-category: za-tan
+category: 新仔杂谈
 tags: 新仔杂谈 000
 ---
 

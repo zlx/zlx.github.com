@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第007期"
 date: 2013-08-11 16:08
 comments: false
-category: za-tan
+category: 新仔杂谈
 tags: 新仔杂谈 007
 ---
 

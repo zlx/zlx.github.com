@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第10期"
 date: 2014-05-07 15:13
 comments: true
-category: za-tan
+category: 新仔杂谈
 tags: 新仔杂谈 010
 ---
 
