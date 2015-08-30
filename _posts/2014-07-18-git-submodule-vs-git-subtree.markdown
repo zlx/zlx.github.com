@@ -22,19 +22,19 @@ tags: Git Submodule Subtree
 
 1. 刚开始加入子项目时：
 
-    git subtree add --prefix=Vendor/AFNetworking --squash git@github.com:AFNetworking/AFNetworking.git master
+        git subtree add --prefix=Vendor/AFNetworking --squash git@github.com:AFNetworking/AFNetworking.git master
 
 2. 切分出相关的提交：
 
-    git subtree split --prefix=Vendor/AFNetworking/ --branch AFNetworking
+        git subtree split --prefix=Vendor/AFNetworking/ --branch AFNetworking
 
 3. 提交到对应的分支：
 
-    git push git@github.com:kvnsmth/AFNetworking.git AFNetworking:critical-bug-fix
+        git push git@github.com:kvnsmth/AFNetworking.git AFNetworking:critical-bug-fix
 
 4. 拉取下最新的代码：
 
-    git subtree pull --prefix=Vendor/AFNetworking --squash git@github.com:AFNetworking/AFNetworking.git master
+        git subtree pull --prefix=Vendor/AFNetworking --squash git@github.com:AFNetworking/AFNetworking.git master
 
 ### 结论
 

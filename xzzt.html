@@ -5,7 +5,7 @@ title: "新仔杂谈"
 
 {% for category in site.categories %}
 	{% capture cat %}{{ category | first }}{% endcapture %}
-	<h2>{{ cat | capitalize }}</h2>
+    {% if cat == '新仔杂谈' %}
 	{% for desc in site.descriptions %}
 		{% if desc.cat == cat %}
 			<p class="desc"><em>{{ desc.desc }}</em></p>
@@ -22,5 +22,6 @@ title: "新仔杂谈"
 	{% endfor %}
 	</ul>
 	{% if forloop.last == false %}<hr>{% endif %}
+    {% endif %}
 {% endfor %}
 <br>
