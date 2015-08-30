@@ -1,0 +1,57 @@
+---
+layout: post
+title: "新仔杂谈第000期"
+date: 2013-01-20 18:32
+comments: true
+category: za-tan
+tags: 新仔杂谈 000
+---
+
+*转眼间，两周时间又过去了。在过去的两周里面，我做了什么？有什么收获？又有什么不足？接下来又有什么计划？下面我将回忆一下，总结一下，反省一下以及展望一下。*
+
+## 新大陆
+
+<!--more-->
+
+在过去的两周里面，我发现了几个好地方。
+
+- [Hacker News](http://news.ycombinator.com/) 是一个每天发布hacker新闻的地方，这里有最前沿的技术文章，也有最受关注的业界新闻。现在关注它是我的每天必做的功课之一。另外有人针对 hacker news 开发了命令行客户端：[pyhn](https://github.com/socketubs/pyhn), [hacker_term](https://github.com/ciaranarcher/hacker_term)。 其中， pyhn 是用 python 开发的， hacker_term 是用 ruby 开发的。由于hacker_term 是基于 [hndroidapi](http://hndroidapi.appspot.com/) 这个 api 的，而这个又被墙的。针对这一点， ciaranarcher 写的 [hacker_term](https://github.com/ciaranarcher/hacker_term) 是使用 http 来翻墙的。详见 [https://github.com/ciaranarcher/hacker_term/blob/master/lib/hacker_term.rb](https://github.com/ciaranarcher/hacker_term/blob/master/lib/hacker_term.rb) 。由于之前 vpn 被封的很死，所以我就在 ciaranarcher 这个版本基础上改写了一下 让其使用 sock 来翻墙(ssh 的方式)，并且默认使用 1080 端口。详细请见 [zlx_hacker_term](https://github.com/zlx/hacker_term) 。
+
+- [Rails Cast](http://railscasts.com/) 这是一个 rails 学习的视频网站，上面有很多 rails 使用的视频，针对很多不同阶段的用户。目前这个网站的视频主要分为免费和付费两类，免费视频主要介绍一些 rails 的基本用法和常用 gem 的使用，但是内容可能较旧。付费视频主要是介绍一些 rails 的高级用法，相对地，内容也会比较新。很多视频都不会很长，例子选的也很好，所以看起来很轻松。目前视频数不会很多，全部看完也不需要多少时间，但是收获会非常大。作为一名全职 rails 程序员，需要时刻提高自己 rails 技术水平，所以看这个视频让我有一种进步看得到的感觉，很棒！
+
+- [http://codepen.io/pen/](http://codepen.io/pen/) 这是一个在线演示网页效果的网站，可以在线编辑 html， css， javascript，从而生成需要的页面效果。并且，它还支持 haml、 makrdown、slim 几种主流的 template 来书写 html ； less、 scss、sass 来书写 css； coffeescript 来书写 javascript。并且可以分享你的页面。这个对于页面展示是一个很方便的地方。
+
+- [http://chopapp.com/](http://chopapp.com/) 这是一个在线的 code review 的网站，你需要做的就是将你的代码贴到文本框，然后将生成的链接分享给你希望 帮你 code review 的人。他们就可以在对应行上面加上 comment 。高效又优雅，非常漂亮又实用的一个网站。
+
+## 新尝试
+
+在过去的两周里面，我尝试写了两个 gem。
+
+- [zlx_hacker_term]() 这是根据 ciaranarcher 的 hacker_term 改写的，主要是实用 sock 来代理请求资源，来代替原来的 http 请求。改动不大，所以难度不大，收获也不多。
+
+- [left_side](https://github.com/zlx/left_side) 这是一个我从公司项目中抽取出来的用于侧边栏显示的部分，目前完成了最初的版本。但是显示样式，代码结构和测试都还需要改进。这个完全是自己从头开始写的，碰到的问题很多，收获也很大，等这个基本完成之后，我会专门写一篇博客来介绍这个 gem 的。
+
+## 不足
+
+在过去的两周里，我依然发现自己有一些很明显的不足。
+
+1. 虽然，相比较以前，我不会那么太执着于自己的想法，但是我发现另外一个问题：我说服别人的能力太弱。有时候，我明明知道我的方案更好，但是我就是无法说服他人采用我的方案，导致了最终我都要妥协于别人的方案。
+
+2. 另外，我发现我有时候太注意别人对我的看法了，对于这点，我认为和我小时候的成长环境有关。针对这点，我将会向同事学习: 认清目标，积极行动，让别人去说吧。
+
+3. 很早之前，我就想培养自己的艺术细胞，提高自己的设计能力。但是碰到了很多的困难，导致了许久没有进展，慢慢地甚至怀疑自己的脑子了。对于这点，暂时没有好办法。目前考虑是否需要参加相关培训，快速入门。
+
+## 展望
+
+在接下来的时间里，我希望自己做到以下几件事：
+
+1. 继续加强 rails 技能，不断优化自己的代码。
+
+2. 阅读技术书籍，清空腐烂的大脑，补充新鲜知识。
+
+3. 继续设计 [share-travel](http://www.share-travel.net/) 。
+
+4. 寻找加强设计能力的方式。
+
+
+enjoy!

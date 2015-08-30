@@ -1,0 +1,105 @@
+---
+layout: post
+title: "left_side"
+date: 2013-02-16 18:11
+comments: true
+category: tech
+tags: gem rails
+---
+
+这是我第一个真正意义上的 gem， 项目地址： [left_side](https://github.com/zlx/left_side)。
+
+在写这个 gem 的过程中，我学到了很多东西，将之前的知识体系完善了许多。也扩大了一些视野，还发现了一些好东西。
+
+<!--more-->
+
+> 这个 gem 的功能很简单，就是为网站的管理后台添加侧边栏的功能。侧边栏的构成由一个 yml 文件来配置。内置了一套样式，如果需要修改，也可以用自己的样式覆盖内置样式达到不一样的显示效果。
+
+> 当然这个 gem 还有很多地方可以改进： 1. 依赖条件太苛刻，仅为 rails ~> 3.2.6 ,支持更多版本的 rails 或者支持另外的框架都是可以改进的方向； 2. 配置文件每次修改都需要重启服务器，这样会导致开发的不方便； 3. 代码依然太丑陋，有许多地方可以修缮改进
+
+然后， 在写这个 gem 的过程中，碰到过很多问题，也让我深入理解了 rails 框架。
+
+## 经验
+
+### 如何给 rails 的 views 添加方法
+
+    ActionView::Base.class_eval do
+      include ::LeftSide::Rails::ActionView
+    end
+
+### 如何让 rails app 使用 gem 内置的样式
+
+    module LeftSide
+      module Rails
+        class Engine < ::Rails::Engine
+        end
+      end
+    end
+
+然后创建这样的目录结构
+
+    lib/assets
+    `-- stylesheets
+        `-- left-side.css.scss
+
+*注意 javascript 也一样*
+
+### 如何在 rails 的启动进程中加入代码
+
+    require 'rails/railtie'
+
+    module LeftSide
+      class Railtie < ::Rails::Railtie
+        initializer "left_side.append_url_helper" do |app|
+          LeftSide::Base.class_eval do
+            include app.routes.url_helpers
+          end
+        end
+      end
+    end
+
+### 如何给 rails 添加 generator 命令
+
+    module LeftSide
+      module Generators
+        class InstallGenerator < ::Rails::Generators::Base
+          desc "copy config file"
+          source_root File.expand_path('../../templates', __FILE__)
+
+          def copy_config
+            copy_file "config/section.yml.example", "config/left_side/section.yml"
+          end
+        end
+      end
+    end
+
+### 如何为 gem 添加开发依赖 gem
+
+    gem.add_dependency "cells",    "~> 3.7.1"
+    gem.add_dependency "rails",    "~> 3.2.6"
+
+    gem.add_development_dependency "rspec"
+    gem.add_development_dependency "rspec-rails"
+
+    source 'https://rubygems.org'
+
+    # Specify your gem's dependencies in left_side.gemspec
+    gemspec
+
+使用 `bundle install` 安装所有的 gem
+
+### 如何给测试加上 rails 环境
+
+    ENV['RAILS_ENV'] = 'test'
+    ENV['RAILS_ROOT'] = File.expand_path("../dummy", __FILE__)
+
+    require File.expand_path("../dummy/config/environment", __FILE__)
+
+写这个 gem 的过程中，我学到了很多。现在更加了解到： 更深入地了解 rails 和写通用的 gem 都是提升内功的有效途径。
+
+
+## 另外，推荐一个网站
+
+[codeclimate.com](https://codeclimate.com) ，它会检测你的项目代码，并给出一个总体等级评价，并指出那些代码可以改进。目前它是收费的，但是如果你是 github 等开源项目，可以免费检测。
+
+enjoy!

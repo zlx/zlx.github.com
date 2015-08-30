@@ -1,0 +1,35 @@
+---
+layout: post
+title: "新仔杂谈第005期"
+date: 2013-05-06 21:09
+comments: false
+category: za-tan
+tags: 新仔杂谈 005
+---
+
+时间过得很快，两周的时间转瞬及至。
+
+<!--more-->
+
+## 新大陆
+
+- [git extras](https://github.com/visionmedia/git-extras) git 命令的扩展，提供了一些统计命令和非常有用方便的命令： `git
+  features`, `git undo`, `git release` 等
+
+
+## 新尝试
+
+1. 上两周状态不错，看了一些开源项目的源码，看了两本书，还提交了一些
+   [patch](https://github.com/presidentbeef/brakeman/pull/320/files)
+
+2. 发现教新手学习 html、css：动手制作一些有意思的东西比较有效果
+
+
+## 展望
+
+1. 继续加深 javascript 的学习
+
+2. 研究开源项目，参与开源项目
+
+
+enjoy!

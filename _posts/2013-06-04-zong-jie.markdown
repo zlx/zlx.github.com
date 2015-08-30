@@ -1,0 +1,47 @@
+---
+layout: post
+title: "新仔杂谈第006期"
+date: 2013-06-04 00:44
+comments: false
+category: za-tan
+tags: 新仔杂谈 006 
+---
+
+不知不觉已经到六月份了，天气渐渐转热。过去将近一个月时间总体来说比较充实。
+
+<!--more-->
+
+## 新大陆
+
+过去一个月没有发现什么新东西，最大的收获是自己对于阅读源码不再是那么畏惧了，反而有一种如鱼得水的感觉。
+^_^
+
+
+## 新尝试
+
+过去一个月收获颇丰
+
+- 依样画葫芦写了个 `git line-summary` 的命令，并成功被[git-extras](https://github.com/visionmedia/git-extras)项目接受
+
+- 处于好玩写了个[fetch_meizi](https://github.com/zlx/fetch_meizi)，用来获取妹子图的最新图片链接。
+
+- `String#truncate` 方法不好用，给 `String` 写了个新方法，[content_truncate](https://github.com/zlx/content-truncate), 用来更智能地截取字符串。
+
+- 正在给[active_admin]() 写个 `patch` , 让它默认采用`select2`作为多对多地输入框。
+
+- 还有其它地一些开源项目的 patch ...
+
+- 在公司内部发起一个 Rails Night
+  的技术分享活动，目标是通过分享来相互学习，促进学习。
+
+- 研究 merb
+
+## 展望
+
+- 研究 javascript 语言本身
+
+- 制定合理的理财计划
+
+- 加强框架层面的理解
+
+enjoy!
