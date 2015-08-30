@@ -1,6 +1,6 @@
 # Site settings
-title: "zlx's Thinking"
-subtitle: Ruby / Rails / Linux / Travel
+title: "I'm Thinking"
+subtitle: Let's Do Something
 email: zlx.star@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://zlx.github.com/" # the base hostname & protocol for your site
