@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TL-WR703N 路由其安装并更新 openwrt 系统"
+title: "TL-WR703N 路由器上安装并更新 OpenWRT"
 date: 2012-11-30 21:20
 comments: true
 category: tech

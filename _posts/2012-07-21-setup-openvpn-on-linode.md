@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "搭建 openvpn"
+title: "OpenVPN 搭建"
+published: false
 comments: true
 category: tech
 tags: linux openvpn

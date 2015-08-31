@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Do Not Return In A Rake Task"
+title: "不要在 Rake 中直接 Return"
 date: 2014-07-18 14:59
 comments: true
 category: tech

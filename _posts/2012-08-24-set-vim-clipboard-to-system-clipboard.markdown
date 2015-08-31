@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "vim 与 系统共享剪切板"
+title: "如何让 vim 与 系统共享剪切板"
 comments: true
 category: tech
 tags: linux vim

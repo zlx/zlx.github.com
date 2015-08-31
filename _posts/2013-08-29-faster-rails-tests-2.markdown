@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Faster Rails Tests 2"
+title: "Rails 测试加速2"
 date: 2013-08-29 15:04
 comments: true
 category: tech

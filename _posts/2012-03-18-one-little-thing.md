@@ -2,6 +2,7 @@
 layout: post
 title: 琐事小记
 category: life
+published: false
 comments: false
 ---
 

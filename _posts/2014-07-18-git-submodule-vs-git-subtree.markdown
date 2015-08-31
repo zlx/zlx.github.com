@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git submodule  VS Git Subtree"
+title: "Git submodule 还是 Git Subtree"
 date: 2014-07-18 14:59
 comments: true
 category: tech

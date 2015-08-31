@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "在rails项目中集成nginx和unicorn"
+title: "用 nginx + unicorn 部署你的 Rails 项目"
 date: 2013-02-01 15:17
 comments: true
 category: tech

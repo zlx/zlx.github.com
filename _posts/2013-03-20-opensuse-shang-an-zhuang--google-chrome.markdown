@@ -2,6 +2,7 @@
 layout: post
 title: "opensuse 上安装 google chrome"
 date: 2013-03-20 08:06
+published: false
 comments: true
 category: tech
 tags: linux chrome 

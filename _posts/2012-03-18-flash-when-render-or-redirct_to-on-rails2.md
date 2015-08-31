@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails 2 中的 flash render 和 redirect
+title: Rails 2 中的 flash, render 和 redirect
 comments: true
 category: tech
 tags: rails flash

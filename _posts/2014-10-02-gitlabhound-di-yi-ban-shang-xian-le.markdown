@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gitlab-hound 上线了"
+title: "Gitlab Hound 上线了"
 date: 2014-10-02 23:52
 comments: true
 category: tech

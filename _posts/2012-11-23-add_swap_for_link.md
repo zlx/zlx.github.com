@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "给 linux 增加虚拟内存"
+title: "给 Linux 增加虚拟内存"
 comments: true
 category: tech
 tags: linux swap

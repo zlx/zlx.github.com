@@ -1,6 +1,6 @@
 ---
 layout: post
-title: overwrite default accessors in rails
+title: 覆写 ActiveRecord 的默认读写方法
 comments: true
 category: tech
 tags: rails activerecord

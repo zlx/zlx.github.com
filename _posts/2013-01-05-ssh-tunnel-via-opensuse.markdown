@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "ssh tunnel via opensuse"
+title: "在 OpenSUSE 上面搭建 SSH Tunnel"
 date: 2013-01-05 13:31
 comments: true
 category: tech
-tags: linux ssh tunnel 
+tags: opensuse linux ssh
 ---
 
 现在最新最时髦的翻墙方式是 ssh tunnel。

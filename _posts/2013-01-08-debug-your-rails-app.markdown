@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "debug your rails app"
+title: "调试 Rails 应用程序"
 date: 2013-01-08 10:10
 comments: true
 category: tech

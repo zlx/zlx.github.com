@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "安装 VirtualBox 和 vagrant"
+title: "安装 VirtualBox 和 Vagrant"
 date: 2012-12-28 15:53
 comments: true
 category: tech

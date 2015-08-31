@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用 github 的 ssh 验证
+title: SSH 验证
 comments: true
 category: tech
 tags: github ssh

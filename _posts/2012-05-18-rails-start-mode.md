@@ -1,6 +1,6 @@
 ---
 layout: post
-title: rails 启动模式小谈
+title: Rails 启动模式小谈
 comments: true
 category: tech
 tags: rails

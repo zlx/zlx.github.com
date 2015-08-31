@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 记录一次文件操作 debug 经历
+title: 记录一次文件操作调试经历
 comments: true
 category: tech
 tags: rails debug

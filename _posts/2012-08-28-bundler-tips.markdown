@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bundler 知识点"
+title: "Bundler 知识点"
 date: 2012-08-28 15:40
 comments: true
 category: tech 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "xflux 的 bug"
+title: "xFlux 的不足"
 date: 2013-02-04 10:36
+published: false
 comments: true
 category: tech
 tags: xflux opensuse

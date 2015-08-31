@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用 highlight.js 高亮你的代码"
+title: "使用 Highlight.js 高亮你的代码"
 date: 2014-04-05 18:03
 comments: true
 category: tech

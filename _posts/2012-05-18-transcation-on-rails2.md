@@ -1,6 +1,6 @@
 ---
 layout: post
-title: rails2 的事务
+title: Rails 2 的事务
 comments: true
 category: tech
 tags: rails 事务

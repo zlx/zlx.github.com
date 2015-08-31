@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "validate for boolean"
+title: "不要校验布尔型"
 date: 2015-08-16 14:22
 comments: true
 category: tech

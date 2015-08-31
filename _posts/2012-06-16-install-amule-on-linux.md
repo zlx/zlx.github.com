@@ -1,7 +1,7 @@
 ---
 layout: post
-title: install amule on linux
-publish: false
+title: Linux 版电驴
+published: false
 comments: true
 category: tech
 tags: linux amule

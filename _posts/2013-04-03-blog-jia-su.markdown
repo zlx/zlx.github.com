@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "blog 加速"
+title: "博客加速"
 date: 2013-04-03 20:50
 comments: true
 category: tech

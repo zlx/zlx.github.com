@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Cache Strategy For AMS"
+title: "AWS 缓存策略设想"
 date: 2014-10-26 09:54
 comments: true
 category: tech

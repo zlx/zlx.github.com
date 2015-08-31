@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 你需要知道的 linux
+title: 你需要知道的 Linux
 category: tech 
+published: false
 comments: true
 tags: linux
 ---

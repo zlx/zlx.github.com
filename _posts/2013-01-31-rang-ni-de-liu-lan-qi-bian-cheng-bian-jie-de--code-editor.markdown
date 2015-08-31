@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "让你的浏览器编程便捷的 code editor"
+title: "让你的浏览器编程便捷的代码编辑器"
 date: 2013-01-31 15:04
 comments: true
 category: tech

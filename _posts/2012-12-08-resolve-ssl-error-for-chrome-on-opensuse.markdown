@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "解决 chrome 的 ssl error 错误"
+title: "解决 Chrome 的 SSL ERROR"
 date: 2012-12-08 21:20
 comments: true
 category:  tech

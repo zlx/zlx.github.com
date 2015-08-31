@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GUI in Ruby"
+title: "Ruby 之 GUI"
 date: 2015-08-23 23:18
 comments: true
 category: tech

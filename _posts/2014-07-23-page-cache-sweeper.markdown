@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Page Cache & Sweeper"
+title: "Rails 和页面缓存和清理"
 date: 2014-07-23 18:04
 comments: true
 category: tech

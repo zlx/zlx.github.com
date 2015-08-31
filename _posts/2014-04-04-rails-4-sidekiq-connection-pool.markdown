@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rails 4 & Sidekiq & Connection Pool"
+title: "Sidekiq 和 Connection Pool"
 date: 2014-04-04 21:49
 comments: true
 category: tech

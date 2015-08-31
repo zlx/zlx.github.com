@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "left_side"
+title: "人生第一个 Gem: left_side"
 date: 2013-02-16 18:11
 comments: true
 category: tech

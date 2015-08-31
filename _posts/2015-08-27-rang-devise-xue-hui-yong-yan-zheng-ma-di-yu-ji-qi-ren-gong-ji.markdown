@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "captcha with Devise"
+title: "Devise 加上 simple_captcha2"
 date: 2015-08-27 15:49
 comments: true
 category: tech

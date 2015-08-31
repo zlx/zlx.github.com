@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "octopress 魔法"
+title: "魔法之 Octopress"
 date: 2013-04-02 22:43
 comments: true
 category: tech

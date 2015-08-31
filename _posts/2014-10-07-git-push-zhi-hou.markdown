@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git push 之后"
+title: "Git push 之后"
 date: 2014-10-07 16:31
 comments: true
 category: tech

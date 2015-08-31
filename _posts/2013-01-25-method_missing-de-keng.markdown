@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "method_missing的坑"
+title: "小心 METHOD_MESSING"
 date: 2013-01-25 15:04
 comments: true
 category: tech

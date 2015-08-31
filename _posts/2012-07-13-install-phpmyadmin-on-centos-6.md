@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "CentOS 安装 phpmyadmin"
+published: false
 comments: true
+published: false
 category: tech
 tags: linux mysql phpmyadmin
 ---

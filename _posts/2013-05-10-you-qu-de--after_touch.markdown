@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "有趣的 after_touch"
+title: "小谈 AFTER_TOUCH"
 date: 2013-05-10 21:01
 comments: true
 category: tech

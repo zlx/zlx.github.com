@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "lock your resource"
+title: "资源加锁"
 date: 2014-09-28 22:53
 comments: true
 category: tech

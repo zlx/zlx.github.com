@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "centOS 安装 sunpinyin 输入法"
+title: "sunpinyin 输入法"
 comments: true
+published: false
 category: tech
 tags: linux sunpinyin
 ---

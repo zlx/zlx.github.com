@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "一个 firefox 的坑"
+title: "Firefox 的坑"
 comments: true
 category: tech 
 tags: form chrome firefox

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "打包javascript和stylesheet到gem里面"
+title: "如何把 Javascript 和 Stylesheet 打包进 Gem"
 date: 2013-01-21 17:49
 comments: true
 category: tech
-tags: gem assets
+tags: rails gem
 ---
 
 将 javascript 和 stylesheet 封装在 gem 里面，如何做呢？

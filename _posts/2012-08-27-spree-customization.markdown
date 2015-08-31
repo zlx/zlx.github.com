@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "spree 定制"
+title: "Spree 定制"
 date: 2012-08-27 14:29
 comments: true
 category: tech 
