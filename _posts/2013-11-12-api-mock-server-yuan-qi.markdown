@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "api mock server 缘起"
+layout: en_post
+title: "api mock server"
 date: 2013-11-12 08:53
 comments: true
-category: tech
-tags: 
+category: en
+tags: api mock
 ---
 
 I am happy to announce that [API Mock Server](https://github.com/zlx/API-mock-server) 1.2 has been released.

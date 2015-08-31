@@ -15,6 +15,12 @@ layout: default
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
+  {% if site.exclude_home == post.category %}
+    {% continue %}
+  {% endif %}
+  {% if 'en' == post.category %}
+    {% continue %}
+  {% endif %}
   <li>
     <h2>
       <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>

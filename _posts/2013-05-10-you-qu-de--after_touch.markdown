@@ -63,7 +63,7 @@ tags: rails after_touch callbacks
 
 看看 [ActiveRecord CallBacks](https://github.com/rails/rails/blob/master/activerecord/lib/active_record/callbacks.rb) 里面时怎么说的:
 
-{% gist 1187700 active-record-callbacks.rb %}
+{% gist tsmango/1187700 active-record-callbacks.rb %}
 
 
 ## 参考资料：

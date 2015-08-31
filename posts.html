@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Posts"
+title: "历史存档"
 ---
 
 {% for category in site.categories %}
 	{% capture cat %}{{ category | first }}{% endcapture %}
+    {% if 'en' != cat %}
 	<h2>{{ cat | capitalize }}</h2>
 	{% for desc in site.descriptions %}
 		{% if desc.cat == cat %}
@@ -22,5 +23,6 @@ title: "Posts"
 	{% endfor %}
 	</ul>
 	{% if forloop.last == false %}<hr>{% endif %}
+	{% endif %}
 {% endfor %}
 <br>

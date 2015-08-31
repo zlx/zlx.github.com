@@ -4,7 +4,8 @@ subtitle: Programming & Life
 email: zlx.star@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://zlx.github.com/" # the base hostname & protocol for your site
-author: Newell
+author: zlx_star
+en_author: Newell
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
@@ -39,11 +40,11 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-gems: ['jekyll-archives', ./_plugins/gist_tag]
+gems: ['jekyll-archives']
 
 # Config for exclude_home
 exclude_home:
-  categories: [life]
+  categories: 'life'
 
 # paginate config
 paginate: 10
