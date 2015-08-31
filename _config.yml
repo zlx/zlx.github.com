@@ -1,6 +1,6 @@
 # Site settings
 title: "I'm Thinking"
-subtitle: Let's Do Something
+subtitle: Programming & Life
 email: zlx.star@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://zlx.github.com/" # the base hostname & protocol for your site
@@ -70,4 +70,10 @@ social:
 
 descriptions:
   - cat: tech
-    desc: "Technology info"
+    desc: "Thinking in Programming"
+
+  - cat: life
+    desc: "Thinking in Daily Life"
+
+  - cat: 新仔杂谈
+    desc: "一个个人片段知识及小技巧的记录集"
