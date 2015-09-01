@@ -12,7 +12,7 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="{{ 'en.html' | prepend: site.baseurl }}">英文</a>
+        <li class="nav-link"><a href="{{ 'en.html' | prepend: site.baseurl }}">English</a>
         {% for page in site.pages %}
           {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a>

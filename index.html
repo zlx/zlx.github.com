@@ -15,10 +15,10 @@ layout: default
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
-  {% if site.exclude_home == post.category %}
+  {% if post.category == site.exclude_home %}
     {% continue %}
   {% endif %}
-  {% if 'en' == post.category %}
+  {% if post.category == 'en' %}
     {% continue %}
   {% endif %}
   <li>

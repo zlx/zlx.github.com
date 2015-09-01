@@ -6,9 +6,9 @@
 
     <div class="site-navigation">
     	
-    	<p><strong>Site Map</strong></p>
+    	<p><strong>网站地图</strong></p>
       <ul class="pages">
-        <li class="nav-link"><a href="{{ 'en.html' | prepend: site.baseurl }}">英文</a>
+        <li class="nav-link"><a href="{{ 'en.html' | prepend: site.baseurl }}">English</a>
         {% for page in site.pages %}
         {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -19,7 +19,7 @@
 
     <div class="site-contact">
 
-    	<p><strong>Contact</strong>
+    	<p><strong>联系方式</strong>
       <ul class="social-media-list">
       	<li>
       		<a href="mailto:{{ site.email }}">
@@ -43,8 +43,14 @@
     </div>
 
     <div class="site-signature">
-    	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+    	<p class="rss-subscribe text"><strong>订阅<a href="{{ "feed.xml" | prepend: site.baseurl }}">RSS</a></strong></p>
       <p class="text">{{ site.description }}</p>
+      <p><strong>友情链接</strong></p>
+      <ul>
+        {% for friend in site.friends %}
+          <li><a href="{{ friend.link }}">{{ friend.name }}</a>
+        {% endfor %}
+      </ul>
     </div>
 
   </div>

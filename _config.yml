@@ -43,8 +43,7 @@ jekyll-archives:
 gems: ['jekyll-archives']
 
 # Config for exclude_home
-exclude_home:
-  categories: 'life'
+exclude_home: 'life'
 
 # paginate config
 paginate: 10
@@ -60,14 +59,21 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
+
   - name: GitHub
     icon: github
     username: zlx
     url: https://github.com/zlx
     desc: Fork me on GitHub
-    share_url:
-    share_title:
-    share_link:
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Newell Zhu
+    url: https://cn.linkedin.com/in/zlxstar
+    desc: Connect with me on LinkedIn
+    share_url: //www.linkedin.com/shareArticle
+    share_title: ?mini=true
+    share_link: "&amp;url="
 
 descriptions:
   - cat: tech
@@ -81,3 +87,7 @@ descriptions:
 
   - cat: travel
     desc: "旅游见闻"
+
+friends:
+  - name: Mouseshi
+    link: "http://mouseshi.com/"

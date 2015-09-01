@@ -5,7 +5,7 @@ title: "历史存档"
 
 {% for category in site.categories %}
 	{% capture cat %}{{ category | first }}{% endcapture %}
-    {% if 'en' != cat %}
+    {% if 'tech' == cat %}
 	<h2>{{ cat | capitalize }}</h2>
 	{% for desc in site.descriptions %}
 		{% if desc.cat == cat %}
