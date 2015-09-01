@@ -3,7 +3,7 @@ title: "I'm Thinking"
 subtitle: Programming & Life
 email: zlx.star@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://zlx.github.com/" # the base hostname & protocol for your site
+url: http://zlx.github.com
 author: zlx_star
 en_author: Newell
 cover: "assets/header_image.jpg"
