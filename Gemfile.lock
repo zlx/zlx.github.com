@@ -111,13 +111,16 @@ GEM
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+    rake (10.4.2)
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rdiscount (2.1.7)
     redcarpet (3.3.2)
+    ruby-pinyin (0.1.0)
     safe_yaml (1.0.4)
     sass (3.4.18)
+    stringex (1.4.0)
     terminal-table (1.5.2)
     thread_safe (0.3.5)
     timers (4.0.1)
@@ -138,3 +141,6 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   json
+  rake
+  ruby-pinyin
+  stringex
