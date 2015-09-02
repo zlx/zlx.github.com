@@ -13,6 +13,8 @@ Page Cache 从 Rails 4 中移除了，取而代之的是 DHH's [cache digests](h
 
 但是对于一些分享出去的静态页面，Page Cache 还是非常有优势的。
 
+<!--more-->
+
 ### 这里有一个怪异的地方
 
 当你使用 [page cache](https://github.com/rails/actionpack-page_caching) , 并尝试使用 [Sweepers](https://github.com/rails/rails-observers#action-controller-sweeper) 作为清理缓存的方式，那你就要注意了：
@@ -42,8 +44,6 @@ Page Cache 从 Rails 4 中移除了，取而代之的是 DHH's [cache digests](h
 在这里，只有 :edit, :destroy, :share 三个 action 定义了要调用  sweeper，直观意思是只有这三个 action 会执行 ListSweeper 的代码，但是情况并非如此。
 
 如果你还有一个 create 方法，那就会抛出一个这样的异常：`NoMethodError (undefined method 'expire_page' for #<ListSweeper:0x0000010428dd90 @controller=nil>)`
-
-<!--more-->
 
 ### 手术刀来了
 

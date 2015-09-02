@@ -18,6 +18,8 @@ tags: Rails Sidekiq ConnectionPool
     production:
       :concurrency: 100
 
+<!--more-->
+
 相对应的，我们需要配置数据库连接池来防止数据库连接不够用，导致连接超时：`ConnectionTimeoutError: no connection can be obtained from the pool.`
 
 一般情况下，你可以直接在 `config/database.yml` 配置:
@@ -27,8 +29,6 @@ tags: Rails Sidekiq ConnectionPool
 但这样会导致一个问题：如果你和我们一样使用 [unicorn](http://unicorn.bogomips.org/) 这种多进程 web server, 并开了多个进程的话，这就会导致你整个 Rails Application 会使用 108 * [unicorn#size] 个数据库连接，这就造成了很大浪费。
 
 ###那么，如何给 Sidekiq 单独配置 pool 而避免影响 unicorn 的数据库连接呢？###
-
-<!--more-->
 
 如果你想直接获取答案，请直接查看[解决模块]()。
 
