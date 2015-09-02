@@ -9,13 +9,7 @@ en_author: Newell
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
-social:
-  - name: Twitter
-    username: "@zlx_star"
-    url: "https://twitter.com/zlx_star"
-  - name: github
-    username: "zlx"
-    url: "https://github.com/zlx"
+excerpt_separator: "<!--more-->"
 
 # Build settings
 markdown: kramdown
@@ -91,3 +85,4 @@ descriptions:
 friends:
   - name: Mouseshi
     link: "http://mouseshi.com/"
+

@@ -42,11 +42,11 @@ layout: default
 {% endif %}
 
 <section class="rss">
-	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+	<p class="rss-subscribe text"><strong>订阅<a href="{{ "feed.xml" | prepend: site.baseurl }}">RSS</a></strong></p>
 </section>
 
 <section class="share">
-  <span>Share: </span>
+  <span>分享: </span>
   {% for social in site.social %}
     {% if social.share_url != null %}
       <a href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}}{{ social.share_link }}{{site.url}}{{page.id}}.html"
