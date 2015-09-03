@@ -7,8 +7,6 @@ category: tech
 tags: Git Submodule Subtree
 ---
 
-### 下面就是正文
-
 最近在项目中要包含其它子项目，首先想到 `git submodule`, 但是它所带来的问题很多，经同事建议，尝试 `git subtree`。
 
 关于它的使用，有很多非常好的文章：
@@ -17,6 +15,7 @@ tags: Git Submodule Subtree
 + [一个真实场景的使用例子](https://gist.github.com/kvnsmth/4688345)
 + [Git Submodule 和 Git SubTree](http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/)
 
+<!--more-->
 
 ### 简单 Guide：
 

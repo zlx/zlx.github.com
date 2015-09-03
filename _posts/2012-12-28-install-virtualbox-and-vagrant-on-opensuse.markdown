@@ -9,7 +9,7 @@ tags: VirtualBox vagrant linux
 
 系统: opensuse 12.2， kernel 3.4.11-2.10-desktop x86_64
 
-# 整个安装过程： #
+## 整个安装过程：
 
 <!--more-->
 

@@ -9,6 +9,8 @@ tags: octopress highlight.js
 
 今天给博客换了一个代码高亮插件 highlight.js 可以支持大多数语言，自动识别语言，而且可以根据心情随时切换代码块样式。
 
+<!--more-->
+
 ## 第一步
 
 在 head.html 文件中加入：
@@ -46,8 +48,6 @@ tags: octopress highlight.js
 ## 最后
 
 配合 Mou 写 markdown，非常方便。而且根据喜好随时更换代码块颜色：[highlight.js Style](https://github.com/isagalaev/highlight.js/tree/master/src/styles)
-
-
 
 
 enjoy!

@@ -2,11 +2,12 @@
 layout: post
 title: "给 Linux 增加虚拟内存"
 comments: true
+published: false
 category: tech
 tags: linux swap
 ---
 
-## 有时候我们会感觉机器内存不够用，但是有没有可用的多余内存条或者内存插口。那么如何增加内存呢？
+***有时候我们会感觉机器内存不够用，但是有没有可用的多余内存条或者内存插口。那么如何增加内存呢？***
 
 首先确保你以 root 用户 或者 sudo 执行以下命令:
 
