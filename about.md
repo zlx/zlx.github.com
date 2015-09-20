@@ -33,7 +33,6 @@ category: about
 + [Gitlab Hound](https://github.com/zlx/Gitlab-Hound) 基于 Gitlab 的代码审查，自动检查 Gitlab 项目的代码风格及常见错误。
 + [API Mock Server](https://github.com/zlx/API-mock-server) 提供一个便利的功能来 Mock API 的返回数据，用于开发阶段的数据模拟及测试。
 + [Depend](https://github.com/zlx/depend) RubyGem 本地依赖安装工具
-+ [ruby-gnome-tutorial](https://github.com/zlx/ruby-gnome-tutorial) Ruby-gnome2 中文教程
 
 #### 我参与的项目
 
