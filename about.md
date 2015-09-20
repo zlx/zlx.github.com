@@ -44,6 +44,11 @@ category: about
 + [china_sms](https://github.com/saberma/china_sms) 国内短信服务的集成工具
 + [gitlab](https://github.com/NARKOZ/gitlab) Gitlab REST API 的 Ruby 包装
 
+#### 我的翻译作品
+
++ [Implementation Patterns 中文版](https://www.gitbook.com/book/zlx/implementation-patterns-chinese/details)
++ [Ruby Gnome 2 中文教程](https://www.gitbook.com/book/zlx/ruby-gnome2-tutorial-cn/details)
+
 ### 关注我
 
 - [RubyChina](http://ruby-china.org/zlx_star)
