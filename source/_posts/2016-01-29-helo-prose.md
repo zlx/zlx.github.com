@@ -1,8 +1,8 @@
 ---
 date: "2016-01-29 21:46 +0800"
 layout: post
-comments: false
-published: false
+comments: true
+published: true
 tags: 
   - Blog
 category: 
