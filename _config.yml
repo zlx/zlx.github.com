@@ -86,3 +86,59 @@ friends:
   - name: Mouseshi
     link: "http://mouseshi.com/"
 
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://zlx.github.io/'
+  media: 'media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: 'date'
+        field:
+          element: 'hidden'
+          value: 'CURRENT_DATETIME'
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "comments"
+        field:
+          element: "button"
+          label: "Can Comment"
+          on: 'true'
+          off: 'false'
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tag"
+          alterable: true
+          placeholder: "Choose Tags"
+          options:
+            - name: "新仔杂谈"
+              value: "新仔杂谈"
+            - name: "Rails"
+              value: "Rails"
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Tech"
+              value: "tech"
+            - name: "En"
+              value: "en"
+            - name: "Life"
+              value: "life"
+            - name: "Travel"
+              value: "travel"
+            - name: "新仔杂谈"
+              value: "新仔杂谈"
