@@ -107,7 +107,9 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
       - name: "comments"
         field:
           element: "button"
