@@ -108,13 +108,21 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
       - name: "comments"
         field:
           element: "button"
-          label: "Can Comment"
-          on: 'true'
-          off: 'false'
+          label: "Can Comment?"
+          on: 'Yes'
+          off: 'No'
+      - name: "published"
+        field:
+          element: "button"
+          label: "Published Now?"
+          on: 'Yes'
+          off: 'No'
       - name: "tags"
         field:
           element: "multiselect"
