@@ -17,12 +17,11 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 
 # Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-layouts_dir:  ./_layouts
-data_dir:     ./_data
-includes_dir: ./_includes
+source:       source
+destination:  _site
+plugins_dir:  source/_plugins
+layouts_dir:  source/_layouts
+includes_dir: source/_includes
 collections:  null
 
 jekyll-archives:
@@ -87,7 +86,7 @@ friends:
     link: "http://mouseshi.com/"
 
 prose:
-  rooturl: '_posts'
+  rooturl: 'source'
   siteurl: 'http://zlx.github.io/'
   media: 'media'
   ignore:
@@ -96,7 +95,7 @@ prose:
     - /_layouts
     - /_includes
   metadata:
-    _posts:
+    'source/_posts':
       - name: "layout"
         field:
           element: "hidden"
@@ -112,9 +111,15 @@ prose:
       - name: "comments"
         field:
           element: "button"
-          label: "Can Comment"
-          on: 'true'
-          off: 'false'
+          label: "Can Comment?"
+          on: 'Receive Comment'
+          off: 'Not Receive Comment'
+      - name: "published"
+        field:
+          element: "button"
+          label: "Published Now?"
+          on: 'Will Publish'
+          off: 'Save to Draft'
       - name: "tags"
         field:
           element: "multiselect"
