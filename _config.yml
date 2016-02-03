@@ -14,16 +14,7 @@ excerpt_separator: "<!--more-->"
 # Build settings
 markdown: kramdown
 
-permalink: /blog/:year/:month/:day/:title/
-
-# Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-layouts_dir:  ./_layouts
-data_dir:     ./_data
-includes_dir: ./_includes
-collections:  null
+permalink: '/blog/:year/:month/:day/:title/'
 
 jekyll-archives:
   enabled: 
@@ -34,7 +25,7 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-gems: ['jekyll-archives']
+gems: ['jekyll-archives', 'jekyll-paginate', 'jekyll-gist']
 
 # Config for exclude_home
 exclude_home: 'life'
@@ -85,68 +76,3 @@ descriptions:
 friends:
   - name: Mouseshi
     link: "http://mouseshi.com/"
-
-#prose:
-  #rooturl: '_posts'
-  #siteurl: 'http://zlx.github.io/'
-  #media: 'media'
-  #ignore:
-    #- index.md
-    #- _config.yml
-    #- /_layouts
-    #- /_includes
-  #metadata:
-    #_posts:
-      #- name: "layout"
-        #field:
-          #element: "hidden"
-          #value: "post"
-      #- name: 'date'
-        #field:
-          #element: 'hidden'
-          #value: 'CURRENT_DATETIME'
-      #- name: "title"
-        #field:
-          #element: "text"
-          #label: "Post title"
-          #placeholder: "Title"
-          #alterable: true
-      #- name: "comments"
-        #field:
-          #element: "button"
-          #label: "Can Comment?"
-          #on: 'Yes'
-          #off: 'No'
-      #- name: "published"
-        #field:
-          #element: "button"
-          #label: "Published Now?"
-          #on: 'Yes'
-          #off: 'No'
-      #- name: "tags"
-        #field:
-          #element: "multiselect"
-          #label: "Add Tag"
-          #alterable: true
-          #placeholder: "Choose Tags"
-          #options:
-            #- name: "新仔杂谈"
-              #value: "新仔杂谈"
-            #- name: "Rails"
-              #value: "Rails"
-      #- name: "category"
-        #field:
-          #element: "multiselect"
-          #label: "Add Category"
-          #placeholder: "Choose Category"
-          #options:
-            #- name: "Tech"
-              #value: "tech"
-            #- name: "En"
-              #value: "en"
-            #- name: "Life"
-              #value: "life"
-            #- name: "Travel"
-              #value: "travel"
-            #- name: "新仔杂谈"
-              #value: "新仔杂谈"

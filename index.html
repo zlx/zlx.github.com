@@ -23,11 +23,11 @@ layout: default
   {% endif %}
   <li>
     <h2>
-      <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>{{ post.excerpt }}</p>
-      <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}"> 更多 ... </a>
+      <a class="post-link" href="{{ post.url }}"> 更多 ... </a>
     </section>
     <section class="post-meta">
         <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
