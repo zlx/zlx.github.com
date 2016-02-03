@@ -1,7 +1,8 @@
 ---
-published: true
+published: false
 title: Hello TinyPress
 layout: post
+permalink: /blog/:year/:month/:day/:title
 ---
 ## TinyPress
 
