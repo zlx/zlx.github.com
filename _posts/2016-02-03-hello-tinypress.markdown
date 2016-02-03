@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hello TinyPress
 layout: post
 permalink: /blog/:year/:month/:day/:title
