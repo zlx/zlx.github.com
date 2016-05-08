@@ -3,6 +3,7 @@ layout: post
 title: 关注内存－小心大数组
 category: tech
 tags: Ruby Memory-leak Array
+comments: true
 ---
 
 Ruby 有垃圾回收机制，以致于大多数 Ruby 开发人员（包括我😫）平时并不关心内存使用情况，所以很有可能不经意间就产出了非常消耗内存或者说是内存不友好的代码。
