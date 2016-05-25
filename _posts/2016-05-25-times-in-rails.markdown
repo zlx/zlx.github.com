@@ -2,6 +2,7 @@
 published: true
 title: Rails 里面的时间
 layout: post
+comments: true
 tags: [rails, time]
 categories: [tech]
 ---
