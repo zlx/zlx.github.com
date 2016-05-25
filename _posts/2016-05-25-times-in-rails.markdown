@@ -28,7 +28,6 @@ categories: [tech]
 - DateTime.now
 - Date.today.to_time
 - Time.parse("2015-07-04 17:05:37")
-- Time.strptime(string, "%Y-%m-%dT%H:%M:%S%z")
 
 ## 其它时区时间
 
