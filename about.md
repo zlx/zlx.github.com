@@ -54,6 +54,6 @@ category: about
 - [RubyChina](http://ruby-china.org/zlx_star)
 - [Twitter](https://twitter.com/zlx_star)
 
-如果你有任何需求，欢迎联系我：
+如果你有想和我进一步交流，欢迎联系我：
 
 <img src='http://blog.zlxstar.me/images/phone.png' style='width: 148px'/>
