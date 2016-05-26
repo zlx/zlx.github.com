@@ -129,8 +129,6 @@ DEPENDENCIES
   github-pages (= 78)
   jekyll
   jekyll-archives
-  jekyll-gist
-  jekyll-paginate
   json
   rake
   ruby-pinyin
