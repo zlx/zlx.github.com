@@ -2,6 +2,7 @@
 published: true
 title: Windows 下如何在 VPN 连断之后触发脚本
 layout: post
+comments: true
 tags: [Windows, 云梯VPN, 智能路由]
 categories: [tech]
 ---
@@ -11,7 +12,7 @@ VPN 是一种全局的代理，我们不需要做任何额外设置就可以实�
 
 如果你是使用 Windows ，那我今天介绍的办法或许适合你。
 
-<!-- more -->
+<!--more-->
 
 ### 废话结束
 
