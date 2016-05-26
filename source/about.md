@@ -42,6 +42,7 @@ category: about
 + [acts_as_paranoid](https://github.com/goncalossilva/acts_as_paranoid) 基于 Rails 3 的软删除实现方案
 + [china_sms](https://github.com/saberma/china_sms) 国内短信服务的集成工具
 + [gitlab](https://github.com/NARKOZ/gitlab) Gitlab REST API 的 Ruby 包装
++ [swagger-codegen](https://github.com/swagger-api/swagger-codegen) 它可以根据 Swagger Spec 来生成各种客户端语言的 SDK。核心开发组成员
 
 #### 我的翻译作品
 
@@ -56,4 +57,3 @@ category: about
 如果你有任何需求，欢迎联系我：
 
 <img src='http://blog.zlxstar.me/images/phone.png' style='width: 148px'/>
-
