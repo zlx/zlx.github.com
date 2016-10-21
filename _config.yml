@@ -8,6 +8,8 @@ author: zlx_star
 en_author: Newell
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
+source: 'source'
+yuntivpn_referral_link: 'http://refcodeyt.com/?r=c8892698ee152ac1'
 
 excerpt_separator: "<!--more-->"
 
@@ -25,7 +27,7 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-gems: ['jekyll-archives', 'jekyll-paginate', 'jekyll-gist']
+gems: ['jekyll-archives', 'jekyll-paginate']
 
 # Config for exclude_home
 exclude_home: 'life'
