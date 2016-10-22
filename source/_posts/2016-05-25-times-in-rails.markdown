@@ -4,7 +4,9 @@ title: Rails 里面的时间
 layout: post
 comments: true
 categories: tech
-tags: rails, time
+tags:
+  - rails
+  - time
 ---
 
 ***特别注意：以下方法均是在 Ruby 2.2.0p0 + Rails 4.2.6 环境下测试，不保证在其他环境下正确。***

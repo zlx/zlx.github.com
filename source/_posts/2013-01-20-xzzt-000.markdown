@@ -49,7 +49,7 @@ tags:
 
 2. 阅读技术书籍，清空腐烂的大脑，补充新鲜知识。
 
-3. 继续设计 [share-travel](http://www.share-travel.net/) 。
+3. 继续设计 share-travel 。
 
 4. 寻找加强设计能力的方式。
 
