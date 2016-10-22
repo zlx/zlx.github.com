@@ -4,7 +4,7 @@ title: "西安路上"
 date: 2013-03-18 22:17
 comments: true
 category: travel 
-tags: 西安 
+tags:
 ---
 
 去西安的直达火车 z92，经停江苏的几个城市后就直奔华山，西安了。

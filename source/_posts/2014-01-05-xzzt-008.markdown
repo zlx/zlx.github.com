@@ -3,8 +3,8 @@ layout: post
 title: "新仔杂谈第008期"
 date: 2014-01-05 09:20
 comments: true
-category: 新仔杂谈
-tags: 新仔杂谈 008
+category: xzzt
+tags:
 ---
 
 2014 已经来到，新年新气象，新的一年我对原有的总结进行了改版，并赋予其一个名字：新仔杂谈。更新频率为一周一期。主要内容是每周的体会与收获。

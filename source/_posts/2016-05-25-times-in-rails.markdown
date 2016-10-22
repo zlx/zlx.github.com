@@ -3,9 +3,10 @@ published: true
 title: Rails 里面的时间
 layout: post
 comments: true
-tags: [rails, time]
-categories: [tech]
+categories: tech
+tags: rails, time
 ---
+
 ***特别注意：以下方法均是在 Ruby 2.2.0p0 + Rails 4.2.6 环境下测试，不保证在其他环境下正确。***
 
 ## Rails 里面配置时区的时间

@@ -5,7 +5,7 @@ published: false
 comments: true
 published: false
 category: tech
-tags: linux mysql phpmyadmin
+tags: linux mysql
 ---
 
 对于一般开发者而言，数据库客户端还是很有必要的。Linux 下面的数据库客户端不多，我选择安装的是 phpmyadmin 。

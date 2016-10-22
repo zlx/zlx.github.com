@@ -3,7 +3,7 @@ layout: post
 title: Rails 2 中的 flash, render 和 redirect
 comments: true
 category: tech
-tags: rails flash
+tags: rails
 ---
 
 最近老是碰到flash信息问题，所以花时间总结一下，记录如下：

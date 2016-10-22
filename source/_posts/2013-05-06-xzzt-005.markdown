@@ -3,8 +3,8 @@ layout: post
 title: "新仔杂谈第005期"
 date: 2013-05-06 21:09
 comments: false
-category: 新仔杂谈
-tags: 新仔杂谈 005
+category: xzzt
+tags:
 ---
 
 时间过得很快，两周的时间转瞬及至。

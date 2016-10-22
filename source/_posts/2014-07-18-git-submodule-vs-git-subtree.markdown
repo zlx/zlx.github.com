@@ -4,7 +4,7 @@ title: "Git submodule 还是 Git Subtree"
 date: 2014-07-18 14:59
 comments: true
 category: tech
-tags: Git Submodule Subtree
+tags: git submodule subtree
 ---
 
 最近在项目中要包含其它子项目，首先想到 `git submodule`, 但是它所带来的问题很多，经同事建议，尝试 `git subtree`。

@@ -12,12 +12,10 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="{{ 'en' | prepend: site.baseurl }}">English</a>
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <li class="nav-link"><a href="{{ 'en' | prepend: site.baseurl }}">English</a></li>
+        <li class="nav-link"><a href="{{ 'category/xzzt' | prepend: site.baseurl }}">新仔杂谈</a></li>
+        <li class="nav-link"><a href="{{ 'archive' | prepend: site.baseurl }}">历史存档</a></li>
+        <li class="nav-link"><a href="{{ 'about' | prepend: site.baseurl }}">关于我</a></li>
       </ul>
     </nav>
   </div>

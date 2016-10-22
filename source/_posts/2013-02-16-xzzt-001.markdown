@@ -3,8 +3,8 @@ layout: post
 title: "新仔杂谈第001期"
 date: 2013-02-16 19:11
 comments: false
-category: 新仔杂谈
-tags: 新仔杂谈 001
+category: xzzt
+tags:
 ---
 
 这是一篇迟到的总结，原本是春节前就应该写的，但是由于种种原因，一直拖到现在。
@@ -21,7 +21,7 @@ tags: 新仔杂谈 001
 
 - [在线技术课程](https://www.coursera.org/)  这是一个在线技术课程网站，里面的课程提供视频，文档，课后作业，讨论版。可以说是将传统课程教学里面的东西都搬到了网上，使你可以随时随地地学习，不受时间和空间的限制。可谓是神课啊
 
-- [浏览器临时编辑器](data:text/html,<style type="text/css">#e {position:absolute;top:0;right:0;bottom:0;left:0;}</style><div id="e"></div><script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script><script>var e=ace.edit("e");e.setTheme("ace/theme/monokai");e.getSession().setMode("ace/mode/ruby");</script>) 这是前段时间很热的一段代码，可以让你的浏览器变成临时编辑器，并带有行号，语法高亮，背景等要素。在我们这个浏览器扮演越来越重要角色的今天，这可谓是一大利器，完全没有系统兼容问题。
+- <a href='data:text/html,<style type="text/css">#e {position:absolute;top:0;right:0;bottom:0;left:0;}</style><div id="e"></div><script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script><script>var e=ace.edit("e");e.setTheme("ace/theme/monokai");e.getSession().setMode("ace/mode/ruby");</script>'>浏览器临时编辑器</a> 这是前段时间很热的一段代码，可以让你的浏览器变成临时编辑器，并带有行号，语法高亮，背景等要素。在我们这个浏览器扮演越来越重要角色的今天，这可谓是一大利器，完全没有系统兼容问题。
 
 - [Teahour.fm](http://ruby-china.org/topics/8661) 这是社区团队贡献的 Podcast , 目前刚开始启动，现有三期，都非常精彩，非常有料。强烈推荐关注。
 
@@ -34,7 +34,7 @@ tags: 新仔杂谈 001
 
 - [left_side](https://github.com/zlx/left_side) 这个 gem 的想法很早就提出了，但是直到最近，它才大致成型。不能不说非常惭愧啊。至于相关细节，可以参考 [github 上的 readme](https://github.com/zlx/left_side/blob/master/README.md) 或者 我的 另一篇博客： [left_side](http://blog.zlxstar.me/blog/2013/02/16/left_side/)
 
-### 现在，我每天阅读大量的文章，也就意味着我每天接受大量的信息，这些信息如果不好好消化吸收，非但没有收获，反而会给我带来不好的结果：忽略重点，纠结于细节。我想，除了有一个明确的目标以外，对自己的目前水平的把握和定位也是非常重要的。有明确的目标，我才知道我们将会做什么，有明确的定位，我才知道现在应该做什么。那如何给自己准确的定位，从而剔除不必要的干扰，专注于实现自我价值呢？  我相信，专注是非常棒的一件事。###
+***现在，我每天阅读大量的文章，也就意味着我每天接受大量的信息，这些信息如果不好好消化吸收，非但没有收获，反而会给我带来不好的结果：忽略重点，纠结于细节。我想，除了有一个明确的目标以外，对自己的目前水平的把握和定位也是非常重要的。有明确的目标，我才知道我们将会做什么，有明确的定位，我才知道现在应该做什么。那如何给自己准确的定位，从而剔除不必要的干扰，专注于实现自我价值呢？  我相信，专注是非常棒的一件事。***
 
 ## 不足
 

@@ -4,7 +4,7 @@ title: "Display: block VS Display: table"
 date: 2016-10-21 19:38
 comments: true
 category: tech
-tags: css display
+tags: css
 referral: true
 ---
 

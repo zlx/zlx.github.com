@@ -3,8 +3,8 @@ layout: post
 title: "新仔杂谈第002期"
 date: 2013-03-02 22:35
 comments: false
-category: 新仔杂谈
-tags: 新仔杂谈 002
+category: xzzt
+tags:
 ---
 
 转眼间两周又过去了。感觉过年的气氛还弥漫在空气中，却已经重新回来上班半个月了。

@@ -4,7 +4,7 @@ title: "资源加锁"
 date: 2014-09-28 22:53
 comments: true
 category: tech
-tags: Ruby Lock
+tags: ruby lock
 ---
 
 在 Rails 当中，经常需要将某些任务作为定时任务执行，而对于系统的定时任务而言，到点就启动一个进程来处理，相互之间是独立的，这就有可能导致某一些进程同时操作某个资源，有可能导致发生出现竟态，而导致一些问题。

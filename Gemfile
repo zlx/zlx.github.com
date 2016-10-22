@@ -5,7 +5,7 @@ require 'open-uri'
 
 ruby '2.3.0'
 
-gem 'jekyll'
+gem 'jekyll', '3.3.0'
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-archives'
 gem 'jekyll-paginate'

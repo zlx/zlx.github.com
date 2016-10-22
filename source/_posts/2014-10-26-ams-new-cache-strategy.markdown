@@ -4,7 +4,7 @@ title: "AWS 缓存策略设想"
 date: 2014-10-26 09:54
 comments: true
 category: tech
-tags: AMS Cache attributes
+tags: ams cache
 ---
 
 AMS 是一个非常不错的尝试，合理使用能简化 API 的设计与实现。

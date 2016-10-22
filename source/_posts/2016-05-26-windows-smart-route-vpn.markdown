@@ -3,8 +3,10 @@ published: true
 title: Windows 下如何在 VPN 连断之后触发脚本
 layout: post
 comments: true
-tags: [Windows, 云梯VPN, 智能路由]
-categories: [tech]
+categories: tech
+tags:
+  - windows
+  - vpn
 ---
 VPN 是开发者必备的利器，一个好用而且稳定的 VPN 是绝对是给予你很大的帮助，良心推荐 [云梯VPN](http://igetvpn.com/?r=c8892698ee152ac1)。
 

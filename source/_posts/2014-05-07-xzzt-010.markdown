@@ -3,7 +3,7 @@ layout: post
 title: "新仔杂谈第010期"
 date: 2014-05-07 15:13
 comments: true
-category: 新仔杂谈
+category: xzzt
 ---
 
 最近一段时间一直忙于工作，没有时间能静下心来好好整理，今天算是补上一期。

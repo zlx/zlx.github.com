@@ -4,7 +4,7 @@ title: "让你的浏览器编程便捷的代码编辑器"
 date: 2013-01-31 15:04
 comments: true
 category: tech
-tags: 
+tags: editor
 ---
 
 让你的浏览器编程一个便捷漂亮的代码编辑器

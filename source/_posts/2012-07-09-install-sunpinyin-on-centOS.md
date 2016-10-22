@@ -4,7 +4,7 @@ title: "sunpinyin 输入法"
 comments: true
 published: false
 category: tech
-tags: linux sunpinyin
+tags: linux
 ---
 
 近来发现之前好好的 ibus 输入法没有备选项提示了，变得非常难用。推测可能与最近的某次系统更新有关。听朋友介绍 sunpinyin 是一款不错的输入法引擎。而且它可以搭载在 ibus 或者 xcim 等输入法下面，于是决定采用它来解决我目前的问题。

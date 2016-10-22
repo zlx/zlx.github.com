@@ -2,7 +2,7 @@
 layout: post
 title: 关注内存－小心大数组
 category: tech
-tags: Ruby Memory-leak Array
+tags: ruby memory-leak array
 comments: true
 ---
 

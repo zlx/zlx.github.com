@@ -4,7 +4,7 @@ title: "给 Linux 增加虚拟内存"
 comments: true
 published: false
 category: tech
-tags: linux swap
+tags: linux
 ---
 
 ***有时候我们会感觉机器内存不够用，但是有没有可用的多余内存条或者内存插口。那么如何增加内存呢？***

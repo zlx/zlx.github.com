@@ -4,7 +4,7 @@ title: "Sidekiq 和 Connection Pool"
 date: 2014-04-04 21:49
 comments: true
 category: tech
-tags: Rails Sidekiq ConnectionPool
+tags: rails sidekiq
 ---
 
 ## 缘起

@@ -4,7 +4,7 @@ title: Linux 版电驴
 published: false
 comments: true
 category: tech
-tags: linux amule
+tags: linux
 ---
 
 最近想玩一下使命召唤 8 ，网上找了一下，发现大多数资源都是使用迅雷下载的，资源最好的是 verycd ，但是他也只提供迅雷或者电驴下载。由于我最近开始向 linux 系统转移，所以就想能不能在 linux 下载下来。

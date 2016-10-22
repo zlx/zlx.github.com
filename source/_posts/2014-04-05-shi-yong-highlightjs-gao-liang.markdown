@@ -4,7 +4,7 @@ title: "使用 Highlight.js 高亮你的代码"
 date: 2014-04-05 18:03
 comments: true
 category: tech
-tags: octopress highlight.js
+tags: octopress highlightjs
 ---
 
 今天给博客换了一个代码高亮插件 highlight.js 可以支持大多数语言，自动识别语言，而且可以根据心情随时切换代码块样式。

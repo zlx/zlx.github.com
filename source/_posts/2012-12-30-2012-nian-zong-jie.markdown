@@ -4,7 +4,7 @@ title: "2012 年总结"
 date: 2012-12-30 13:28
 comments: false
 category: life
-tags: 2012 总结 
+tags:
 ---
 
 时间飞逝，转眼 2012 年就快过去了。校园生活好像还在眼前，却又离开了好久了。

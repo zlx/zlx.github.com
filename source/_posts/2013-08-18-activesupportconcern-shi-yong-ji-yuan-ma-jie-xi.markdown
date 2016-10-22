@@ -4,7 +4,7 @@ title: "ActiveSupport::Concern 使用及源码解析"
 date: 2013-08-18 19:56
 comments: true
 category: tech
-tags: rails concern module
+tags: rails module
 ---
 
 今天我们讲讲 Rails 里面的 ActiveSupport::Concern 。

@@ -4,7 +4,7 @@ title: "一个网络请求背后的故事"
 date: 2016-05-27 20:44
 comments: true
 category: tech
-tags: 网络 VPN
+tags: vpn
 ---
 
 如今，互联网已经非常流行，人人都可以很轻易的上网，但是你知道发生在一个网页浏览背后的故事吗？

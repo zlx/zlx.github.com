@@ -3,7 +3,7 @@ layout: post
 title: 什么是字符编码(翻译)
 category: tech
 comments: true
-tags: ruby encoding 翻译
+tags: ruby translate
 ---
 
 原文见 [what is a character encoding](http://blog.grayproductions.net/articles/what_is_a_character_encoding)

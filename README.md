@@ -1,7 +1,5 @@
 ## 使用说明
 
-update
-
 #### 创建新博客
 
     bundle exec rake new_post

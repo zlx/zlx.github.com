@@ -3,8 +3,8 @@ layout: post
 title: "新仔杂谈第003期"
 date: 2013-03-27 21:33
 comments: false
-category: 新仔杂谈
-tags: 新仔杂谈 003
+category: xzzt
+tags:
 ---
 
 距离我上一次写总结不知道有多久了，好像有将近一个月了吧。这一个月事情很多，也发生了许多变化。

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Devise 加上 simple_captcha2"
+title: "Devise 配合使用 simple_captcha2"
 date: 2015-08-27 15:49
 comments: true
 category: tech
-tags: devise simple_captcha2 bots fail_attempts
+tags: devise captcha2 bots
 ---
 
 现在网络上各种扫描器和网络爬虫越来越泛滥，如何让你的网站变得更强壮，以抵御这些不速之客呢？

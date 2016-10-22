@@ -4,7 +4,7 @@ title: "小谈 AFTER_TOUCH"
 date: 2013-05-10 21:01
 comments: true
 category: tech
-tags: rails after_touch callbacks
+tags: rails callbacks
 ---
 
 Rails 里面存在很多 callbacks， 比如 `before_save`, `after_save`,

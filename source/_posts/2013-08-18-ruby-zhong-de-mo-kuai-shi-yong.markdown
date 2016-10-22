@@ -4,7 +4,7 @@ title: "Ruby 中的模块使用"
 date: 2013-08-18 20:48
 comments: true
 category: tech
-tags: ruby module include extend
+tags: ruby module
 ---
 
 今天我们来讲讲 Ruby 里面的模块是怎么工作的！

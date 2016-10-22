@@ -27,7 +27,9 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-gems: ['jekyll-archives', 'jekyll-paginate']
+gems:
+  - jekyll-archives
+  - jekyll-paginate
 
 # Config for exclude_home
 exclude_home: 'life'
@@ -69,7 +71,8 @@ descriptions:
   - cat: life
     desc: "Thinking in Daily Life"
 
-  - cat: 新仔杂谈
+  - cat: xzzt
+    display: 新仔杂谈
     desc: "片段知识及小技巧"
 
   - cat: travel

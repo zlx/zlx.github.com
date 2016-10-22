@@ -3,7 +3,7 @@ layout: post
 title: Rails 2 的事务
 comments: true
 category: tech
-tags: rails 事务
+tags: rails
 ---
 
 事务是一个很普遍的概念，它是要求一些相关的事件实现原子性，即 要么全部发生，要么全部不发生，这就像是一个选择题，要么是 0，要么就是 1，没有第三种选择。这在很多地方都至关重要，尤其像银行转账问题。
